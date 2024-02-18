@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seçiciler</title>
+    <style>
+        
+        p{
+            color: wheat;
+            background-color: black;
+            font-size: 60px; /* font-size: Yazı boyutunu ayarlar  */
+            font-style: italic; /* font-style yazı tipinin italic olduğunu söylüyor  */
+        }
+        div p{
+            color: tomato;
+            background-color: chartreuse;
+        }
+        div div p{
+            color: blue;
+            background-color: bisque;
+        }
+        div h1{
+            color: aqua;
+            background-color: brown;
+        }
+        .class{
+            color: blueviolet;
+            background-color: chartreuse;
+        }
+        div{
+            color: darkkhaki;
+            background-color: black;
+            display: flex; 
+            
+        }
+        .box1,.box2,.box3{
+            height: 200px;
+            width: 200px;
+            background-color: violet;
+            border: 1px solid black;
+            text-align: center;
+            
+            margin: auto; /* margin auto ortalamak için kullanılır.  */
+        
+        }
+        .box1{
+            text-shadow: 10px 10px 5px; /* text-shadow yazılara gölge efekti verir.  */
+        }
+        .box2{
+            text-shadow: 30px 30px 5px;
+        }
+        .box3{
+            text-shadow: 50px 50px 5px;
+        }
+        div.box4{
+            width: 50%;
+            height: 200px;
+            background-color: aquamarine;
+            margin: auto;
+        }
+        input{
+            border: 1px solid black;
+            margin: auto;
+            
+            
+        }
+        body{
+            justify-content: center; /* justify-content x ekseninde işlem yapar.  */
+            align-items: center; /* align items y ekseninde işlem yapar. */
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Neos Yazılım Akademi</h1><hr>
+        <p>
+        Neos Yazılım Akademi
+    </p><hr>
+    <p>Neos Yazılımmmm</p><hr>
+    </div><hr>
+    <p>Neos Yazılım Akademi</p><hr>
+    <div><div><p><p>Neos yazılımmm</p><hr><p>Neos Yazılım Akademi</p></p></div></div><hr>
+    <span class="class">Neos Yazılım Akademi</span><br><hr>
+    <div><span class="class">Neos Yazılım Akademi</span></div>
+    <div class="box1">1 <br> Yasin </div><hr>
+    <div class="box2">2 <br> Yasin</div><hr>
+    <div class="box3">3 <br> Yasin</div><hr>
+    <div class="box4"></div>
+    <div><input type="text" name="" id=""value="Kullanıcı Adı"><br></div>
+    <div><input type="submit" value="Okey"></div>
+</body>
+</html>
